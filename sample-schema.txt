@@ -1,0 +1,7 @@
+"sample-schema"
+{
+	"base"		"nutscript"
+	"title"		"Sample Schema"
+	"author"	"Pilot"
+	"menusystem" "1"
+}
