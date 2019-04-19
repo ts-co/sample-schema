@@ -7,7 +7,7 @@ Purpose: Who in the faction is allowed to become this class?
 ---------------------------------------------------------------------------]]
 function CLASS:onCanBe(client)
 	--If the client has the custom flag P then allow them to become this class.
-	if client:hasFlag("P") then
+	if client:getChar():hasFlags("P") then
 		return true
 	end
 end
